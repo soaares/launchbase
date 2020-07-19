@@ -1,5 +1,5 @@
 // Programa para calcular o IMC e nível de obesidade de uma pessoa
-// Teste
+// Testando
 
 const nome = 'Raphael';
 const peso = 75;
