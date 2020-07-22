@@ -2,27 +2,44 @@
 
 :root {
     --color-acqua: #00FFFF;
+    --color-pink: #FFE4C4;
+    --color-bckg: #D3D3D3;
+    --color-fnts: #DB7093;
 }
 
 * {
     margin: 0;
     border: 0;
     padding: 0;
+    background-color: var(--color-bckg);
 }
+
 .links a {
     text-decoration: none;
-    color: white;
-    background-color: gray;
+    color: var(--color-fnts);
+    border-bottom: 1px solid var(--color-acqua);
     font-size: 28px;
     font-family: 'Roboto', sans-serif;
     border-radius: 8px;
     margin: 30px;
-    padding: 15px;
+    padding: 5px;
 }
 .links a:hover{
     color: pink;
     transition: 780ms;
 }
+
+.links-footer {
+    text-align: center;
+}
+
+.links-footer a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid var(--color-acqua);
+    text-align: center;
+}
+
 header {
     padding: 30px;
 }
@@ -48,4 +65,23 @@ header {
 #content p {
     font-family: 'Arial', sans-serif;
     margin: 20px;
+}
+
+/* CARDS */
+
+.cards {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: var(--color-bckg);
+}
+
+.card_img_container {
+    width: 100%;
+}
+
+.card_container {
+    padding: 24px;
 }
