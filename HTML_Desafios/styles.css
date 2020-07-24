@@ -122,8 +122,14 @@ header {
     cursor: pointer;
 }
 
+/* MODAL STYLES */
 
 .modal-overlay.active {
     opacity: 1;
     visibility: visible;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
 }
