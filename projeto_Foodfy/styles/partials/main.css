@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+
+    --color-title: #111111;
+    --color-chef-card: #FBDFDB;
+    --color-chef-text: #000000;
+    --color-card-subtitle: #777777;
+    --color-background-footer: #EEEEEE;
+    --color-text-in-footer: #999999;
+    --color-text-in-about: #444444;
+}
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+body, html {
+
+    width: 61vw;
+    margin: 0 auto;
+
+}
+
+#home-page #chef-container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    height: 366px;
+    background-color: var(--color-chef-card);
+
+}
+
+#home-page #chef-container #container-text {
+    
+   position: relative;
+   margin: auto 60px;
+
+}
+
+
+#home-page #chef-container #container-text h1 {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    text-align: left;
+}
+
+#home-page #chef-container #container-text p {
+
+    
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: var(--color-chef-text);
+    opacity: 0.7;
+    line-height: 28px;
+    margin-top: 10px;
+
+}
+
+#home-page #chef-container #chef-img {
+
+    height: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+#home-page #chef-container #chef-img img {
+
+    position: absolute;
+    bottom: 0;
+    
+}
+
+#home-page #main-title h1 {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    color: var(--color-title);
+    margin-bottom: 15px;
+
+}
+
+.food-cards {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+
+}
+
+.food-cards .card img {
+
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+
+}
+
+.food-cards .card h2 {
+
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-title);
+
+}
+
+.food-cards .card p {
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-card-subtitle);
+
+}
+
+footer {
+
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color:var(--color-background-footer);
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: var(--color-text-in-footer);
+
+
+}
+
+
