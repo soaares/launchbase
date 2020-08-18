@@ -10,129 +10,143 @@
 
     <body>
 
-        <header>
+        <div id="layout">        
+        
+            <header>
 
-            <div class="header">
+                <div class="header">
 
-                <a href="/"><h1>Foodfy</h1></a>
-                <a href="about.html">Sobre</a>
-                <a id = 'recipes' href="recipes.html">Receitas</a>
+                    <a href="/"><h1>Foodfy</h1></a>
+                    <a href="about.html">Sobre</a>
+                    <a id = 'recipes' href="recipes.html">Receitas</a>
 
+                </div>
+
+            </header>
+
+            <main id = 'recipes-page'>
+
+                <section class = 'food-cards'>
+
+                    <div class="card" id = 'burger'>
+
+                        <img src="assets/burger.png" alt="Hamburguer">
+                        <h2>Triplo bacon burguer</h2>
+                        <p>por Jorge Relato</p>
+
+                    </div>
+
+                    <div class="card" id = 'pizza'>
+
+                        <img src="assets/pizza.png" alt="Pizza">
+                        <h2>Pizza 4 estações</h2>
+                        <p>por Fabiana Melo</p>
+
+                    </div>
+
+                    <div class="card" id = 'espaguete'>
+
+                        <img src="assets/espaguete.png" alt="Espaguete">
+                        <h2>Espaguete ao alho</h2>
+                        <p>por Júlia Kinoto</p>
+
+                    </div>
+
+                    <div class="card" id = 'lasanha'>
+
+                        <img src="assets/lasanha.png" alt="Lasanha">
+                        <h2>Lasanha mac n' cheese</h2>
+                        <p>por Juliano Vieira</p>
+
+                    </div>
+
+                    <div class="card" id = 'doce'>
+
+                        <img src="assets/doce.png" alt="Doce">
+                        <h2>Docinhos pão-do-céu</h2>
+                        <p>por Ricardo Golvea</p>
+
+                    </div>
+
+                    <div class="card" id = 'asinhas'>
+
+                        <img src="assets/asinhas.png" alt="Asinhas">
+                        <h2>Asinhas de frango ao barbecue</h2>
+                        <p>por Vania Steroski</p>
+
+                    </div>
+
+                    <div class="card" id = 'burger'>
+
+                        <img src="assets/burger.png" alt="Hamburguer">
+                        <h2>Triplo bacon burguer</h2>
+                        <p>por Jorge Relato</p>
+
+                    </div>
+
+                    <div class="card" id = 'pizza'>
+
+                        <img src="assets/pizza.png" alt="Pizza">
+                        <h2>Pizza 4 estações</h2>
+                        <p>por Fabiana Melo</p>
+
+                    </div>
+
+                    <div class="card" id = 'espaguete'>
+
+                        <img src="assets/espaguete.png" alt="Espaguete">
+                        <h2>Espaguete ao alho</h2>
+                        <p>por Júlia Kinoto</p>
+
+                    </div>
+
+                    <div class="card" id = 'lasanha'>
+
+                        <img src="assets/lasanha.png" alt="Lasanha">
+                        <h2>Lasanha mac n' cheese</h2>
+                        <p>por Juliano Vieira</p>
+
+                    </div>
+
+                    <div class="card" id = 'doce'>
+
+                        <img src="assets/doce.png" alt="Doce">
+                        <h2>Docinhos pão-do-céu</h2>
+                        <p>por Ricardo Golvea</p>
+
+                    </div>
+
+                    <div class="card" id = 'asinhas'>
+
+                        <img src="assets/asinhas.png" alt="Asinhas">
+                        <h2>Asinhas de frango ao barbecue</h2>
+                        <p>por Vania Steroski</p>
+
+                    </div>
+
+                </section>
+
+            </main>
+
+        </div>
+
+        <div class="modal-overlay">
+            <div class="modal">
+                <div class="modal-content">
+                    <img id = 'food' src="" alt="">
+                    <h2 id = 'desc'></h2>
+                </div>
             </div>
-
-        </header>
-
-        <main id = 'recipes-page'>
-
-            <section class = 'food-cards'>
-
-                <div class="card">
-
-                    <img src="assets/burger.png" alt="Hamburguer">
-                    <h2>Triplo bacon burguer</h2>
-                    <p>por Jorge Relato</p>
-
-                </div>
-
-                <div class="card">
-
-                    <img src="assets/pizza.png" alt="Pizza">
-                    <h2>Pizza 4 estações</h2>
-                    <p>por Fabiana Melo</p>
-
-                </div>
-
-                <div class="card">
-
-                    <img src="assets/espaguete.png" alt="Espaguete">
-                    <h2>Espaguete ao alho</h2>
-                    <p>por Júlia Kinoto</p>
-
-                </div>
-
-                <div class="card">
-
-                    <img src="assets/lasanha.png" alt="Lasanha">
-                    <h2>Lasanha mac n' cheese</h2>
-                    <p>por Juliano Vieira</p>
-
-                </div>
-
-                <div class="card">
-
-                    <img src="assets/doce.png" alt="Doce">
-                    <h2>Docinhos pão-do-céu</h2>
-                    <p>por Ricardo Golvea</p>
-
-                </div>
-
-                <div class="card">
-
-                    <img src="assets/asinhas.png" alt="Asinhas">
-                    <h2>Asinhas de frango ao barbecue</h2>
-                    <p>por Vania Steroski</p>
-
-                </div>
-
-                <div class="card">
-
-                    <img src="assets/burger.png" alt="Hamburguer">
-                    <h2>Triplo bacon burguer</h2>
-                    <p>por Jorge Relato</p>
-
-                </div>
-
-                <div class="card">
-
-                    <img src="assets/pizza.png" alt="Pizza">
-                    <h2>Pizza 4 estações</h2>
-                    <p>por Fabiana Melo</p>
-
-                </div>
-
-                <div class="card">
-
-                    <img src="assets/espaguete.png" alt="Espaguete">
-                    <h2>Espaguete ao alho</h2>
-                    <p>por Júlia Kinoto</p>
-
-                </div>
-
-                <div class="card">
-
-                    <img src="assets/lasanha.png" alt="Lasanha">
-                    <h2>Lasanha mac n' cheese</h2>
-                    <p>por Juliano Vieira</p>
-
-                </div>
-
-                <div class="card">
-
-                    <img src="assets/doce.png" alt="Doce">
-                    <h2>Docinhos pão-do-céu</h2>
-                    <p>por Ricardo Golvea</p>
-
-                </div>
-
-                <div class="card">
-
-                    <img src="assets/asinhas.png" alt="Asinhas">
-                    <h2>Asinhas de frango ao barbecue</h2>
-                    <p>por Vania Steroski</p>
-
-                </div>
-
-                
-
-            </section>
-
-        </main>
+        </div>
 
         <footer>
 
             <p>Todos os direitos reservados, receitas Foodfy.</p>
 
         </footer>
+
+        <script src="scripts/scripts.js"></script>
+
 
     </body>
 
