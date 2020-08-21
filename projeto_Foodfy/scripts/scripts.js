@@ -7,10 +7,14 @@ for( let card of cards ) {
     card.addEventListener('click', function () {
 
         const foodId = card.getAttribute('id');
-        const foodDesc = card.getElementsByTagName('h2');
+        const foodContent = card.innerHTML;
         modalOverlay.classList.add('active');
-        modalOverlay.querySelector('#food').src = `assets/${foodId}.png`;
-        modalOverlay.querySelector('#desc').textContent = `${foodDesc}`;
+        modalWhite.innerHTML = `${foodContent} <span class = 'close-modal'>Fechar modal</span>`;
+
+        document.querySelector('.close-modal').addEventListener('click', function(){
+            modalOverlay.classList.remove('active');
+            modalOverlay.querySelector('img').src = '';
+        })
 
     })
 

@@ -35,26 +35,41 @@
     background-color: white;
     width: 660px;
     height: 413px;
-    margin: 5vh auto;
-    position: relative;
+    margin: 150px auto;
     border-radius: 16px;
-
-}
-
-.modal-content {
-
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    text-align: center;
 
 }
 
-
-.modal-content img {
+.modal img {
 
     width: 600px;
     height: 200px;
     border-radius: 15px;
+    margin: 30px;
+
+}
+
+.modal h2 {
+
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--color-title);
+    text-align: center;
+
+}
+
+.modal p {
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--color-card-subtitle);
+    text-align: center;
 
 }
 
@@ -62,5 +77,16 @@
 
     opacity: 1;
     visibility: visible;
+    
+}
+
+.modal .close-modal {
+
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: var(--color-text-in-footer);
+    margin-top: 60px;
+    cursor: pointer;
     
 }
