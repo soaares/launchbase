@@ -1,0 +1,45 @@
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <title>LaunchStore</title>
+        <link rel="icon" href="assets/favicon.ico" type="image/x-icon"/>
+        
+        {% include 'parts/styles.njk'%}
+
+    </head>
+    
+    <body>
+
+        {% include "parts/messages.njk" %}
+
+        {% include "parts/header.njk"%}
+
+        {% block content %}
+        
+        
+        {% endblock %}
+
+        {% include "parts/footer.njk"%}
+
+
+        <script src="/scripts/scripts.js"></script>
+        
+        <script>
+
+        const formDelete = document.querySelector('#form-delete');
+            formDelete.addEventListener('submit', function(event) {
+
+                const confirmation = confirm('Deseja deletar?')
+                if(!confirmation){
+                
+                    event.preventDefault()
+
+                }
+            
+            })
+
+        </script>
+
+    </body>
+</html>
